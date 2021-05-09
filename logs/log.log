@@ -1222,3 +1222,314 @@ Traceback (most recent call last):
   File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
     raise AssertionError("{} not in {}".format(expected, res))
 AssertionError: {'code': 1, 'msg': '用户id错误'} not in {'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:06:24,163 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44639607.82
+2021-05-09 21:06:24,524 - [test04_withward.py-->line:94] - INFO: 请求之前的余额44639607.82
+2021-05-09 21:06:56,147 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44639607.82
+2021-05-09 21:06:56,500 - [test04_withward.py-->line:94] - INFO: 请求之前的余额44639606.82
+2021-05-09 21:06:56,763 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44639606.82
+2021-05-09 21:06:57,126 - [test04_withward.py-->line:94] - INFO: 请求之前的余额44639495.82
+2021-05-09 21:06:57,340 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44639495.82
+2021-05-09 21:06:57,730 - [test04_withward.py-->line:94] - INFO: 请求之前的余额44639384.62
+2021-05-09 21:06:57,973 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44639384.62
+2021-05-09 21:06:58,295 - [test04_withward.py-->line:94] - INFO: 请求之前的余额44639273.40
+2021-05-09 21:06:58,526 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44639273.40
+2021-05-09 21:06:59,198 - [test04_withward.py-->line:94] - INFO: 请求之前的余额44139274.40
+2021-05-09 21:06:59,463 - [test04_withward.py-->line:86] - INFO: 请求之前的余额44139274.40
+2021-05-09 21:06:59,843 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:00,106 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:00,471 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:00,753 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:01,124 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:01,378 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:01,723 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:01,993 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:02,372 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:02,581 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:02,964 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:03,437 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:03,774 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:04,018 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:04,334 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:04,590 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:05,007 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:05,240 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:05,660 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:05,966 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:07:06,294 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:09:26,974 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639274.40
+2021-05-09 21:09:27,477 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639273.40
+2021-05-09 21:09:27,477 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:1，标题为:提现成功-提现1元】---执行成功
+2021-05-09 21:09:27,897 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639273.40
+2021-05-09 21:09:28,244 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639162.40
+2021-05-09 21:09:28,245 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:2，标题为:提现成功-提现小于50万元】---执行成功
+2021-05-09 21:09:28,591 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639162.40
+2021-05-09 21:09:28,921 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43639051.20
+2021-05-09 21:09:28,922 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:3，标题为:提现成功-提现1位小数】---执行成功
+2021-05-09 21:09:29,411 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43639051.20
+2021-05-09 21:09:29,834 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43638939.98
+2021-05-09 21:09:29,834 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:4，标题为:提现成功-提现2位小数】---执行成功
+2021-05-09 21:09:30,260 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43638939.98
+2021-05-09 21:09:30,845 - [test04_withward.py-->line:94] - INFO: 请求之前的余额43138940.98
+2021-05-09 21:09:30,846 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:5，标题为:提现成功-提现499999】---执行成功
+2021-05-09 21:09:31,299 - [test04_withward.py-->line:86] - INFO: 请求之前的余额43138940.98
+2021-05-09 21:09:32,119 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:32,120 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:6，标题为:提现成功-提现50万】---执行成功
+2021-05-09 21:09:32,497 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:32,911 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:32,932 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:7，标题为:提现失败-提现0元】---执行失败
+2021-05-09 21:09:32,932 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 42638940.98, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 42638940.98, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:33,499 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:33,844 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:33,844 - [test04_withward.py-->line:111] - ERROR: 用例--【模块为：提现，编号为:8，标题为:提现失败-提现3位小数】---执行成功
+2021-05-09 21:09:34,235 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:34,761 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:34,762 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:9，标题为:提现失败-提现500000.01】---执行失败
+2021-05-09 21:09:34,763 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:35,401 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:35,880 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:35,881 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:10，标题为:提现失败-提现负数】---执行失败
+2021-05-09 21:09:35,881 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:36,491 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:36,852 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:36,853 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:11，标题为:提现失败-提现非数字】---执行失败
+2021-05-09 21:09:36,854 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 2, 'msg': '数值参数格式不正确', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 2, 'msg': '数值参数格式不正确', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:37,563 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:37,967 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:37,968 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:12，标题为:提现失败-提现金额大于剩余金额】---执行失败
+2021-05-09 21:09:37,969 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '数值参数格式不正确', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '数值参数格式不正确', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:38,491 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:38,845 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:38,845 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:13，标题为:提现失败-提现金额为空】---执行失败
+2021-05-09 21:09:38,845 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:39,358 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:39,849 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:39,850 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:14，标题为:提现失败-提现id为空】---执行失败
+2021-05-09 21:09:39,851 - [test04_withward.py-->line:106] - ERROR: {'code': 1, 'msg': '用户id为空'} not in {'code': 1, 'msg': '会员id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '用户id为空'} not in {'code': 1, 'msg': '会员id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:40,421 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:40,971 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:40,971 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:15，标题为:提现失败-提现id为小数】---执行失败
+2021-05-09 21:09:40,972 - [test04_withward.py-->line:106] - ERROR: {'code': 2, 'msg': '数字格式化异常'} not in {'code': 2, 'msg': '数值参数格式不正确', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '数字格式化异常'} not in {'code': 2, 'msg': '数值参数格式不正确', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:09:41,472 - [test04_withward.py-->line:86] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:41,858 - [test04_withward.py-->line:94] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:09:41,859 - [test04_withward.py-->line:105] - ERROR: 用例--【模块为：提现，编号为:16，标题为:提现失败-提现id错误】---执行失败
+2021-05-09 21:09:41,859 - [test04_withward.py-->line:106] - ERROR: {'code': 1, 'msg': '用户id错误'} not in {'code': 2, 'msg': '会员不存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 98, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '用户id错误'} not in {'code': 2, 'msg': '会员不存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:14:22,753 - [test04_withward.py-->line:87] - INFO: 请求之前的余额42638940.98
+2021-05-09 21:14:23,167 - [test04_withward.py-->line:95] - INFO: 请求之前的余额42638939.98
+2021-05-09 21:14:23,223 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:1，标题为:提现成功-提现1元】---执行成功
+2021-05-09 21:14:23,620 - [test04_withward.py-->line:87] - INFO: 请求之前的余额42638939.98
+2021-05-09 21:14:24,065 - [test04_withward.py-->line:95] - INFO: 请求之前的余额42638828.98
+2021-05-09 21:14:24,065 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:2，标题为:提现成功-提现小于50万元】---执行成功
+2021-05-09 21:14:24,443 - [test04_withward.py-->line:87] - INFO: 请求之前的余额42638828.98
+2021-05-09 21:14:24,846 - [test04_withward.py-->line:95] - INFO: 请求之前的余额42638717.78
+2021-05-09 21:14:24,847 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:3，标题为:提现成功-提现1位小数】---执行成功
+2021-05-09 21:14:25,245 - [test04_withward.py-->line:87] - INFO: 请求之前的余额42638717.78
+2021-05-09 21:14:25,707 - [test04_withward.py-->line:95] - INFO: 请求之前的余额42638606.56
+2021-05-09 21:14:25,708 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:4，标题为:提现成功-提现2位小数】---执行成功
+2021-05-09 21:14:26,080 - [test04_withward.py-->line:87] - INFO: 请求之前的余额42638606.56
+2021-05-09 21:14:26,434 - [test04_withward.py-->line:95] - INFO: 请求之前的余额42138607.56
+2021-05-09 21:14:26,435 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:5，标题为:提现成功-提现499999】---执行成功
+2021-05-09 21:14:26,935 - [test04_withward.py-->line:87] - INFO: 请求之前的余额42138607.56
+2021-05-09 21:14:27,252 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:27,252 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:6，标题为:提现成功-提现50万】---执行成功
+2021-05-09 21:14:27,649 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:28,028 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:28,029 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:7，标题为:提现失败-提现0元】---执行失败
+2021-05-09 21:14:28,030 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 41638607.56, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 41638607.56, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:14:28,644 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:29,049 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:29,049 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:8，标题为:提现失败-提现3位小数】---执行成功
+2021-05-09 21:14:29,509 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:30,014 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:30,015 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:9，标题为:提现失败-提现500000.01】---执行失败
+2021-05-09 21:14:30,015 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:14:30,579 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:30,956 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:30,956 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:10，标题为:提现失败-提现负数】---执行失败
+2021-05-09 21:14:30,957 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:14:31,574 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:31,912 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:31,912 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:11，标题为:提现失败-提现非数字】---执行成功
+2021-05-09 21:14:32,536 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:32,976 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:32,976 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:12，标题为:提现失败-提现金额大于剩余金额】---执行失败
+2021-05-09 21:14:32,977 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:14:33,523 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:34,045 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:34,045 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:13，标题为:提现失败-提现金额为空】---执行失败
+2021-05-09 21:14:34,046 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:14:34,597 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:34,967 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:34,968 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:14，标题为:提现失败-提现id为空】---执行成功
+2021-05-09 21:14:35,402 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:35,842 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:35,843 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:15，标题为:提现失败-提现id为小数】---执行成功
+2021-05-09 21:14:36,308 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:36,659 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:14:36,660 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:16，标题为:提现失败-提现id错误】---执行成功
+2021-05-09 21:18:35,837 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638607.56
+2021-05-09 21:18:36,183 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638606.56
+2021-05-09 21:18:36,184 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:1，标题为:提现成功-提现1元】---执行成功
+2021-05-09 21:18:36,454 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638606.56
+2021-05-09 21:18:36,705 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638495.56
+2021-05-09 21:18:36,706 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:2，标题为:提现成功-提现小于50万元】---执行成功
+2021-05-09 21:18:36,956 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638495.56
+2021-05-09 21:18:37,178 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638384.36
+2021-05-09 21:18:37,178 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:3，标题为:提现成功-提现1位小数】---执行成功
+2021-05-09 21:18:37,433 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638384.36
+2021-05-09 21:18:37,658 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41638273.14
+2021-05-09 21:18:37,659 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:4，标题为:提现成功-提现2位小数】---执行成功
+2021-05-09 21:18:37,960 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41638273.14
+2021-05-09 21:18:38,233 - [test04_withward.py-->line:95] - INFO: 请求之前的余额41138274.14
+2021-05-09 21:18:38,234 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:5，标题为:提现成功-提现499999】---执行成功
+2021-05-09 21:18:38,541 - [test04_withward.py-->line:87] - INFO: 请求之前的余额41138274.14
+2021-05-09 21:18:38,873 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:38,873 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:6，标题为:提现成功-提现50万】---执行成功
+2021-05-09 21:18:39,247 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:39,505 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:39,506 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:7，标题为:提现失败-提现0元】---执行失败
+2021-05-09 21:18:39,507 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 40638274.14, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 40638274.14, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:18:39,920 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:40,221 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:40,221 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:8，标题为:提现失败-提现3位小数】---执行成功
+2021-05-09 21:18:40,477 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:40,721 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:40,721 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:9，标题为:提现失败-提现500000.01】---执行失败
+2021-05-09 21:18:40,721 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:18:41,108 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:41,364 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:41,365 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:10，标题为:提现失败-提现负数】---执行失败
+2021-05-09 21:18:41,365 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:18:41,763 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:42,010 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:42,011 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:11，标题为:提现失败-提现非数字】---执行成功
+2021-05-09 21:18:42,473 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:42,710 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:42,711 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:12，标题为:提现失败-提现金额大于剩余金额】---执行失败
+2021-05-09 21:18:42,711 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:18:43,118 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:43,377 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:43,378 - [test04_withward.py-->line:106] - ERROR: 用例--【模块为：提现，编号为:13，标题为:提现失败-提现金额为空】---执行失败
+2021-05-09 21:18:43,378 - [test04_withward.py-->line:107] - ERROR: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test04_withward.py", line 99, in test_withward
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须为数值型'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 21:18:43,764 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:43,967 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:43,968 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:14，标题为:提现失败-提现id为空】---执行成功
+2021-05-09 21:18:44,227 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:44,488 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:44,489 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:15，标题为:提现失败-提现id为小数】---执行成功
+2021-05-09 21:18:44,765 - [test04_withward.py-->line:87] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:44,987 - [test04_withward.py-->line:95] - INFO: 请求之前的余额40638274.14
+2021-05-09 21:18:44,988 - [test04_withward.py-->line:112] - ERROR: 用例--【模块为：提现，编号为:16，标题为:提现失败-提现id错误】---执行成功
