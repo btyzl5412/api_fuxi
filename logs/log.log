@@ -1126,3 +1126,99 @@ Traceback (most recent call last):
   File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
     raise AssertionError("{} not in {}".format(expected, res))
 AssertionError: {'code': 1, 'msg': '用户id错误'} not in {'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:08,640 - [test01_register.py-->line:63] - INFO: 查询数据库的结果为:1
+2021-05-09 19:57:08,641 - [test01_register.py-->line:74] - INFO: 用例--【编号为:1，标题为:注册成功-带注册名】---执行成功
+2021-05-09 19:57:09,697 - [test01_register.py-->line:63] - INFO: 查询数据库的结果为:1
+2021-05-09 19:57:09,698 - [test01_register.py-->line:74] - INFO: 用例--【编号为:2，标题为:注册成功-不带注册名】---执行成功
+2021-05-09 19:57:10,423 - [test01_register.py-->line:63] - INFO: 查询数据库的结果为:1
+2021-05-09 19:57:10,424 - [test01_register.py-->line:74] - INFO: 用例--【编号为:3，标题为:注册成功-不带类型和注册名】---执行成功
+2021-05-09 19:57:14,239 - [test01_register.py-->line:63] - INFO: 查询数据库的结果为:1
+2021-05-09 19:57:14,240 - [test01_register.py-->line:74] - INFO: 用例--【编号为:4，标题为:注册成功-不带类型】---执行成功
+2021-05-09 19:57:15,164 - [test01_register.py-->line:63] - INFO: 查询数据库的结果为:1
+2021-05-09 19:57:15,165 - [test01_register.py-->line:74] - INFO: 用例--【编号为:5，标题为:注册成功-类型为0】---执行成功
+2021-05-09 19:57:15,395 - [test01_register.py-->line:74] - INFO: 用例--【编号为:6，标题为:注册失败-不带手机号】---执行成功
+2021-05-09 19:57:15,655 - [test01_register.py-->line:74] - INFO: 用例--【编号为:7，标题为:注册失败-不带密码】---执行成功
+2021-05-09 19:57:15,905 - [test01_register.py-->line:74] - INFO: 用例--【编号为:8，标题为:注册失败-手机号长度为10】---执行成功
+2021-05-09 19:57:16,261 - [test01_register.py-->line:74] - INFO: 用例--【编号为:9，标题为:注册失败-手机号长度为12】---执行成功
+2021-05-09 19:57:16,528 - [test01_register.py-->line:74] - INFO: 用例--【编号为:10，标题为:注册失败-手机号中存在非法字符】---执行成功
+2021-05-09 19:57:16,766 - [test01_register.py-->line:74] - INFO: 用例--【编号为:11，标题为:注册失败-密码7位】---执行成功
+2021-05-09 19:57:17,006 - [test01_register.py-->line:74] - INFO: 用例--【编号为:12，标题为:注册失败-密码17位】---执行成功
+2021-05-09 19:57:17,255 - [test01_register.py-->line:74] - INFO: 用例--【编号为:13，标题为:注册失败-注册名11位】---执行成功
+2021-05-09 19:57:17,532 - [test01_register.py-->line:74] - INFO: 用例--【编号为:14，标题为:注册失败-类型输入非0，1内容】---执行成功
+2021-05-09 19:57:17,932 - [test01_register.py-->line:74] - INFO: 用例--【编号为:15，标题为:注册成功-注册名为null】---执行成功
+2021-05-09 19:57:18,375 - [test01_register.py-->line:67] - ERROR: 用例--【编号为:16，标题为:注册失败-类型为null】---执行失败
+2021-05-09 19:57:18,376 - [test01_register.py-->line:68] - ERROR: {'code': 2, 'msg': '不支持的用户类型'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1000527079, 'reg_name': 'bty', 'mobile_phone': '13594605378'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test01_register.py", line 58, in test_register
+    res_asser_expected(expected, res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '不支持的用户类型'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1000527079, 'reg_name': 'bty', 'mobile_phone': '13594605378'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:18,753 - [test01_register.py-->line:74] - INFO: 用例--【编号为:17，标题为:注册失败-手机号为null】---执行成功
+2021-05-09 19:57:18,989 - [test01_register.py-->line:74] - INFO: 用例--【编号为:18，标题为:注册失败-密码为null】---执行成功
+2021-05-09 19:57:19,470 - [test02_login.py-->line:58] - INFO: 用例--【编号为:1，标题为:登录成功】---执行成功
+2021-05-09 19:57:19,713 - [test02_login.py-->line:58] - INFO: 用例--【编号为:2，标题为:登录失败-账号为空】---执行成功
+2021-05-09 19:57:19,966 - [test02_login.py-->line:58] - INFO: 用例--【编号为:3，标题为:登录失败-密码为空】---执行成功
+2021-05-09 19:57:20,434 - [test02_login.py-->line:58] - INFO: 用例--【编号为:4，标题为:登录失败-错误的账号】---执行成功
+2021-05-09 19:57:20,999 - [test02_login.py-->line:58] - INFO: 用例--【编号为:5，标题为:登录失败-未注册的账号】---执行成功
+2021-05-09 19:57:21,792 - [test02_login.py-->line:58] - INFO: 用例--【编号为:6，标题为:登录失败-错误的密码】---执行成功
+2021-05-09 19:57:22,030 - [test02_login.py-->line:58] - INFO: 用例--【编号为:7，标题为:登录失败-手机格式错误】---执行成功
+2021-05-09 19:57:22,320 - [test02_login.py-->line:58] - INFO: 用例--【编号为:8，标题为:登录失败-手机格式错误】---执行成功
+2021-05-09 19:57:24,264 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:1，标题为:充值成功-金额为正整数】---执行成功
+2021-05-09 19:57:24,986 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:2，标题为:充值成功-金额为1位小数】---执行成功
+2021-05-09 19:57:25,709 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:3，标题为:充值成功-金额为2位小数】---执行成功
+2021-05-09 19:57:27,415 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:4，标题为:充值失败-金额为3位小数】---执行成功
+2021-05-09 19:57:28,251 - [test03_recharge.py-->line:104] - ERROR: 用例--【模块为：充值，编号为:5，标题为:充值失败-金额为0】---执行失败
+2021-05-09 19:57:28,251 - [test03_recharge.py-->line:105] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 42639607.83, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test03_recharge.py", line 94, in test_recharge
+    res_asser_expected(expected,res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 10018244, 'leave_amount': 42639607.83, 'mobile_phone': '13262664317', 'reg_name': '小柠檬', 'reg_time': '2021-02-22 20:28:34.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:29,221 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:6，标题为:充值成功-金额499999.99】---执行成功
+2021-05-09 19:57:30,544 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:7，标题为:充值成功-金额50万整】---执行成功
+2021-05-09 19:57:31,455 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:8，标题为:充值成功-金额500000.0】---执行成功
+2021-05-09 19:57:32,663 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:9，标题为:充值成功-金额500000.00】---执行成功
+2021-05-09 19:57:33,459 - [test03_recharge.py-->line:104] - ERROR: 用例--【模块为：充值，编号为:10，标题为:充值失败-金额大于50万】---执行失败
+2021-05-09 19:57:33,460 - [test03_recharge.py-->line:105] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test03_recharge.py", line 94, in test_recharge
+    res_asser_expected(expected,res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:34,361 - [test03_recharge.py-->line:104] - ERROR: 用例--【模块为：充值，编号为:11，标题为:充值失败-金额为负数】---执行失败
+2021-05-09 19:57:34,361 - [test03_recharge.py-->line:105] - ERROR: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test03_recharge.py", line 94, in test_recharge
+    res_asser_expected(expected,res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:35,703 - [test03_recharge.py-->line:104] - ERROR: 用例--【模块为：充值，编号为:12，标题为:充值失败-金额为字母】---执行失败
+2021-05-09 19:57:35,704 - [test03_recharge.py-->line:105] - ERROR: {'code': 2, 'msg': '数字格式化异常'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test03_recharge.py", line 94, in test_recharge
+    res_asser_expected(expected,res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '数字格式化异常'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:36,618 - [test03_recharge.py-->line:104] - ERROR: 用例--【模块为：充值，编号为:13，标题为:充值失败-金额为特殊字符】---执行失败
+2021-05-09 19:57:36,619 - [test03_recharge.py-->line:105] - ERROR: {'code': 2, 'msg': '数字格式化异常'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test03_recharge.py", line 94, in test_recharge
+    res_asser_expected(expected,res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '数字格式化异常'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-05-09 19:57:37,477 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:14，标题为:充值失败-id为空】---执行成功
+2021-05-09 19:57:38,101 - [test03_recharge.py-->line:110] - ERROR: 用例--【模块为：充值，编号为:15，标题为:充值失败-id为小数】---执行成功
+2021-05-09 19:57:39,238 - [test03_recharge.py-->line:104] - ERROR: 用例--【模块为：充值，编号为:16，标题为:充值失败-错误的id】---执行失败
+2021-05-09 19:57:39,239 - [test03_recharge.py-->line:105] - ERROR: {'code': 1, 'msg': '用户id错误'} not in {'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "D:\pyhton_api\api_fuxi\testcases\test03_recharge.py", line 94, in test_recharge
+    res_asser_expected(expected,res)
+  File "D:\pyhton_api\api_fuxi\common\handle_com.py", line 46, in res_asser_expected
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '用户id错误'} not in {'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
